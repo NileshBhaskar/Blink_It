@@ -87,3 +87,59 @@ input[type="search"] {
 .flex-item:nth-child(3) {
   flex-basis: 50%;
 }
+
+.section1 {
+  width: 80%;
+  margin: auto;
+}
+
+.section1 img {
+  width: 100%;
+}
+
+.section2 {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  overflow-x: auto;
+  gap: 20px;
+}
+
+.section2 div {
+  margin: auto;
+}
+
+.section3 {
+  display: grid;
+  width: 80%;
+  margin: auto;
+  grid-template-columns: repeat(10, auto);
+}
+
+.section3 div {
+  width: 100%;
+}
+
+.section3 div img {
+  width: 100%;
+}
+
+.section4 {
+  width: 80%;
+  margin: auto;
+}
+
+.cards {
+  display: flex;
+  overflow-x: scroll;
+  width: 100%;
+  margin: auto;
+}
+
+footer h1 {
+  text-align: center;
+}
+
+.cards {
+  height: 100%;
+}
